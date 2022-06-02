@@ -1,0 +1,282 @@
+
+
+@import url('https://fonts.googleapis.com/css?family=Karla:400,700&display=swap');
+:root {
+	--font: 'Karla', 'Karla', sans-serif;
+    color:pink;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+    max-width: 100%;
+    height: auto;
+}
+
+
+#logo {
+	width: 50px;
+	height: 50px;
+	display: block;
+	margin: 55px auto 20px;
+    border: 2px solid rgb(241, 241, 241);
+    border-radius: 25px;
+	
+}
+
+
+
+
+
+
+#userPhoto:active {
+	box-shadow: 0px 0px black;
+	transform: translateY(6px);
+}
+
+#userName {
+	color: white;
+	font-size: 1rem;
+	font-weight: 600;
+	line-height: 1.25;
+	display: block;
+	font-family: var(--font);
+	width: 100%;
+	text-align: center;
+	text-decoration: none;
+}
+
+iframe {   
+    height: 230px;
+    width: 410px;
+    margin-right: center;
+    margin-left: 510px;
+    border: 1px solid;
+    padding: 10px;
+
+    box-shadow: 5px 10px 18px #f618fd;
+    
+
+}
+.rectangle1 {
+	width: 600px;
+	height: 200px;
+	background-color: #E6A4A6;
+	fill:#ffffff;
+	border:2px solid #E6A4A6;
+	box-shadow: 2px 3px 6px #f1353579;
+	border-radius:25px;
+	margin-left: 430px;
+	margin-bottom: 2000px;
+	margin-top: -80px;
+  }
+
+.gambar2{
+	height: 395px;
+	width: 235px;
+	margin-right: 100px;
+	margin-left: 310px;
+	margin-bottom: auto;
+	margin-top: -50px;
+
+
+}
+
+.gambar1{
+	height: 395px;
+	width: 235px;
+	margin-right: auto;
+	margin-left: 350px;
+	margin-bottom: auto;
+	margin-top: -10px;
+
+
+}
+.gambar3{
+	height: 395px;
+	width: 235px;
+	margin-right: 100px;
+	margin-left: 310px;
+	margin-bottom: auto;
+	margin-top: -50px;
+
+
+}
+
+.pic-ctn {
+	width: 100vw;
+	height: 200px;
+  }
+  
+
+
+#link1 {
+	max-width: 275px;
+	width: auto;
+	display: block;
+	margin: 27px auto;
+    border-right:500px;
+    border-left:300px;
+	margin-bottom: 68px;
+
+
+}
+
+#link2 { /*shopee*/
+	max-width: 275px;
+    border-bottom: 100px;
+	margin: 27px ;
+    border-radius: center;
+    margin-top: -120px;
+    margin-bottom: 10px;
+    margin-right: 100px;
+    margin-left: 280px;
+    
+    
+}
+#link3 { 
+	max-width: 275px;
+	width: auto;
+	display: block;
+	margin: 27px auto ;
+	border-radius: center;
+    margin-right: 100px;
+    margin-top:-101px;
+    margin-left: 910px;
+    margin-bottom: 20 px;
+   
+
+}
+
+@media only screen and (max-width: 700px) {
+	#links {
+		margin-left: 3%;
+		margin-right: 3%;
+	}
+	.night_mode {
+		margin-right: 40%;
+	}
+}
+
+.link {
+	margin-center:-45px;
+    border-radius: 25px;
+	display: block;
+	background-color: #f150b4;
+	color: rgb(255, 255, 255);
+	font-family: var(--font);
+	text-align: center;
+	margin-bottom: 50px;
+	padding: 17px;
+	text-decoration: none;
+	font-size: 1rem;
+	font-weight: bold;
+	transition: all 0.15s;
+	box-shadow: 0 8px 16px 0 #f150b4, 0 6px 20px 0 ;
+}
+
+.link :hover {
+	/* background: #019489; */
+	color: rgb(201, 68, 90);
+    border-bottom: 4px solid rgb(134, 42, 57);
+}
+
+.link:active {
+	transition-duration: 0.4s;
+	transform: translateY(6px);
+	box-shadow: 0px 0px #007569;
+}
+
+#proker {
+	max-width: 300px;
+	width: auto;
+	margin: 27px auto;
+}
+
+.footer {
+	text-align: center;
+	font-size: 1.3rem;
+}
+
+.footer a {
+	text-decoration: none;
+}
+
+.media {
+	background: #DD5A79;
+	width: 38px;
+	height: 38px;
+	text-align: center;
+	color: white;
+	margin-bottom: 40px;
+	box-shadow: 0px 6px #9E4355;
+	transition: all 0.15s;
+}
+
+.media:hover {
+	box-shadow: 0px 8px #9E4355;
+	transform: translateY(-2px);
+}
+
+.media:active {
+	transform: translateY(6px);
+	box-shadow: 0px 0px #9E4355;
+}
+
+@keyframes display {
+	0% {
+	  transform: translateX(200px);
+	  opacity: 0;
+	}
+	10% {
+	  transform: translateX(0);
+	  opacity: 1;
+	}
+	20% {
+	  transform: translateX(0);
+	  opacity: 1;
+	}
+	30% {
+	  transform: translateX(-200px);
+	  opacity: 0;
+	}
+	100% {
+	  transform: translateX(-200px);
+	  opacity: 0;
+	}
+  }
+  .pic-ctn {
+	position: relative;
+	width: 50vw;
+	height: 300px;
+	margin-top: 5vh;
+	
+  }
+  .pic-ctn1 {
+	position: relative;
+	width: 50vw;
+	height: 300px;
+	margin-top: -5vh;
+	
+  }
+  .pic-ctn1 > img {
+	position: absolute;
+	top: 0;
+	left: calc(50% - 100px);
+	opacity: 0;
+	animation: display 10s infinite;
+  }
+  
+  .pic-ctn > img {
+	position: absolute;
+	top: 0;
+	left: calc(50% - 100px);
+	opacity: 0;
+	animation: display 10s infinite;
+  }
+  
+  img:nth-child(2) {
+	animation-delay: 2s;
+  }
+  img:nth-child(3) {
+	animation-delay: 4s;
+  }
