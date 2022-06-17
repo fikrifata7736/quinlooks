@@ -13,6 +13,14 @@ body {
 }
 
 
+.ulasan {
+	position: relative;
+	width: auto;
+	height: auto;
+	margin-left: 600px;
+	margin-top: 30vh;
+}
+
 #logo {
 	vertical-align: middle;
 	width: 50px;
@@ -67,36 +75,35 @@ iframe {
   }
 
 .gambar2{
-	height: 395px;
-	width: 235px;
-	margin-right: 100px;
-	margin-left: 310px;
-	margin-bottom: auto;
-	margin-top: -50px;
+	height: auto;
+	width: auto;
+	margin-left:-120px;
+	margin-right: auto;
+	margin-bottom: -10px;
+	margin-top: 50px;
 
 
 }
 
 .gambar1{
-	height: 395px;
-	width: 235px;
+	height: auto;
+	width: auto;
+	margin-left:-120px;
 	margin-right: auto;
-	margin-left: 350px;
-	margin-bottom: auto;
-	margin-top: -10px;
-
+	margin-bottom: -10px;
+	margin-top: 50px;
 
 }
 .gambar3{
-	height: 395px;
-	width: 235px;
-	margin-right: 110px;
-	margin-left: 310px;
-	margin-bottom: auto;
-	margin-top: -50px;
-
+	height: auto;
+	width: auto;
+	margin-left:-120px;
+	margin-right: auto;
+	margin-bottom: -10px;
+	margin-top: 50px;
 
 }
+
 
 .pic-ctn {
 	width: 100vw;
@@ -242,17 +249,20 @@ iframe {
 	position: relative;
 	width: 50vw;
 	height: 300px;
-	margin-top: 5vh;
+	margin-top: 7vh;
 	
   }
   .pic-ctn1 {
 	position: relative;
 	width: 50vw;
 	height: 300px;
-	margin-top: -3vh;
+	margin-top: -7vh;
+	
 	
   }
   .pic-ctn1 > img {
+	height: auto;
+	width: auto;
 	position: absolute;
 	top: 0;
 	left: calc(50% - 100px);
